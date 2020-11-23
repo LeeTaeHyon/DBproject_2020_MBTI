@@ -1,0 +1,18 @@
+.main_contents div.background {
+    background-image: url('../src/mbti_logo.jpg');
+    height: 40vh;
+    width: 28vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 230px;
+    align-content: center;
+    float:left;
+}
+.main_contents .sub_text{
+    font-size: 100px;
+}
+.main_contents .main_text{
+    font-size: xx-large;
+    font-weight: 500;
+    margin-left: 230px;
+}
