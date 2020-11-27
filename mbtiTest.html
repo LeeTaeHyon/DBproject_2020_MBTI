@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type-"text/javascript" src="index.js"></script>
+    <script type-"text/javascript" href="index.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <title>셀브스트 - MBTI란?</title>
+    <link rel="stylesheet" type="text/css" href="/css/mbtiTest.css">
+    <title>셀브스트 - MBTI검사중</title>
 </head>
 <body>
     <div class="nav">
@@ -48,17 +49,36 @@
             </li>
         </ul>
     </div>
-    <div class="main_contents">
-        <link rel="stylesheet" type="text/css" href="css/nav_1.css">
-        <div class="background"></div>
-        <p class="sub_text">
-        MBTI란?
-        </p>
-        <p class="main_text">
-        MBTI(Myers-Briggs Type Indicator)는 C.G.Jung의 심리유형론을 근거로 하여</br>
-        Katharine Cook Briggs와 Isabel Briggs Myers가 보다 쉽고 일상생활에</br>
-        유용하게 활용할 수 있도록 고안한 자기보고식 성격유형지표이다.
-        </p>
+    <div class="mainContent">
+        <h1>
+            MBTI 검사지
+        </h1>
+        <!-- ques 클래스에 검사 질문 출력 -->
+        <div class="ques">
+            <p>
+                1. 당신의 MBTI를 측정하겠습니다.
+            </p>
+            <label class="box-radio-input">
+            <input type="radio" name="rb1" value="옵션1" checked="checked">
+            <span>측정하심에 동의하십니까?</span></label>
+            </br>
+            <label class="box-radio-input">
+            <input type="radio" name="rb1" value="옵션2">
+            <span>측정하심에 동의 안 하십니까?</span></label>
+
+            <p>
+                2. 당신의 MBTI를 측정하겠습니다.
+            </p>
+            <label class="box-radio-input">
+            <input type="radio" name="rb2" value="옵션1" checked="checked">
+            <span>측정하심에 동의하십니까?</span></label>
+            <label class="box-radio-input">
+            <input type="radio" name="rb2" value="옵션2">
+            <span>측정하심에 동의 안 하십니까?</span></label>
+        </div>
+        <button type="button" class="submit" onclick="location.href='nav_3.html'">
+            제출하기
+        </button>
     </div>
 </body>
 <!-- Made by Pican -->

@@ -1,18 +1,48 @@
+body{
+    overflow: hidden;
+}
 .main_contents div.background {
     background-image: url('../src/mbti_logo.jpg');
-    height: 40vh;
-    width: 28vw;
+    height: 60vh;
+    width: 35vw;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x: 230px;
+    background-position-x: 200px;
     align-content: center;
     float:left;
 }
 .main_contents .sub_text{
-    font-size: 100px;
+    font-size: 10vw;
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    animation-duration: 1s;
+    animation-name: slidein;
+    transition-timing-function: ease-in;
+    text-align: center;
+    height: 45vh;
+    vertical-align: middle;
+    color: white;
+    background: #90EE90;
+    box-shadow:  16px 16px 32px #7aca7a, 
+             -16px -16px 32px #a6ffa6;
 }
 .main_contents .main_text{
+    font-family: 'Sqopa Han Sans';
     font-size: xx-large;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 230px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20vh;
+}
+@keyframes slidein{
+    from{
+    margin-left: 100%;
+    width:200%;
+    }
+
+    to{
+        margin-left: 0%;
+        width:100%;
+    }
 }

@@ -1,0 +1,82 @@
+.mainContent{
+    padding-left:30vw;
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    background: #bdd6ff;
+    background-size: cover;
+    text-align: center;
+    padding-left: 10vw;
+}
+.mainContent .submit{
+    widows: 15px;
+    height: 10vh;
+    border: none;
+    color:#fff;
+    display: inline-block;
+    font-size: 3vw;
+    font-weight: 900;
+    cursor: pointer;
+    animation: 0.5s;
+    border-radius: 20px;
+    margin:10vh 35vw 10vh 35vw;
+    text-align: center;
+    background: linear-gradient(145deg, #aac1e6, #cae5ff);
+    box-shadow:  16px 16px 32px #a1b6d9, 
+             -16px -16px 32px #d9f6ff;
+}
+.mainContent .submit:hover{
+    background: linear-gradient(145deg, #cae5ff, #aac1e6);
+    box-shadow:  16px 16px 32px #a1b6d9, 
+             -16px -16px 32px #d9f6ff;
+}
+.mainContent .submit:active{
+    background: #bdd6ff;
+    box-shadow: inset 16px 16px 32px #a1b6d9, 
+            inset -16px -16px 32px #d9f6ff;
+}
+.mainContent .submit:focus{
+    outline: none;
+}
+.mainContent h1{
+    font-family: "Noto Sans KR";
+    font-weight: 900;
+    font-size:10vw;
+    color:white;
+}
+.mainContent p{
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+    font-size:3vw;
+    z-index: 2;
+    line-height: 15vh;
+}
+.box-radio-input input[type="radio"]{
+    display:none;
+}
+.box-radio-input input[type="radio"] + span{
+    display:inline-block;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #b6cff6, #99aecf);
+    text-align:center;
+    height:5vh;
+    width: 50vw;
+    font-weight:500;
+    font-size:3vh;
+    cursor:pointer;
+    margin-top:1vh;
+    margin-bottom: 1vh;
+    background: white;
+    border: 3px solid #aac1e6;
+    color:#aac1e6;
+}
+.box-radio-input input[type="radio"]:checked + span{
+    border: 3px solid white;
+    background: #aac1e6;
+    color:white;
+}
+.box-radio-input input[type="radio"]:hover + span{
+    background: #d0e2ff;
+    border: 3px solid white;
+    color:white;
+}

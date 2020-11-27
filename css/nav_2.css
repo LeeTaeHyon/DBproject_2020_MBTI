@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+.mainContent{
+    display: flow-root;
+    background:lightgreen;
+}
+body{
+    background: lightgreen;
+}
+.mainContent>h1{
+    font-family: 'Noto Sans KR';
+    font-weight: 900;
+    font-size:10vw;
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+    line-height: 20vw;
+    padding-left: 10vw;
+}
+.mainContent .sub{
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    font-size:3vw;
+    padding-left: 10vw;
+    line-height: 10vw;
+    margin-left:15vw;
+    margin-right: 5vw;
+    border-radius: 50px;
+    background: #90EE90;
+    box-shadow:  16px 16px 32px #7aca7a, 
+             -16px -16px 32px #a6ffa6;
+    height:50vh;
+}
+.mainContent .submit{
+    position: absolute;
+    width:20vw;
+    height: 15vh;
+    border: none;
+    color:#fff;
+    padding: 15px 0;
+    text-align: center;
+    display: inline-block;
+    font-size: 3vw;
+    font-weight: 900;
+    margin: 4px;
+    cursor: pointer;
+    top:60%;
+    left:45%;
+    border-radius: 20px;
+    animation: 0.5s;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #aac1e6, #cae5ff);
+    box-shadow:  16px 16px 32px #a1b6d9, 
+             -16px -16px 32px #d9f6ff;
+}
+.mainContent .submit:hover{
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cae5ff, #aac1e6);
+    box-shadow:  16px 16px 32px #a1b6d9, 
+             -16px -16px 32px #d9f6ff;
+}
+.mainContent .submit:active{
+    border-radius: 50px;
+    background: #bdd6ff;
+    box-shadow: inset 16px 16px 32px #a1b6d9, 
+            inset -16px -16px 32px #d9f6ff;
+}
+.mainContent .submit:focus{
+    outline: none;
+}
