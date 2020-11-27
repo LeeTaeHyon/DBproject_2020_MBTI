@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <title>셀브스트</title>
+    <link rel="stylesheet" type="text/css" href="css/nav_5.css">
+    <title>셀브스트 - 토론의 장</title>
 </head>
 <body>
     <div class="nav">
@@ -45,6 +46,90 @@
                     <span class="title">토론의 장</span>  
                 </a>
             </li>
+        </ul>
+    </div>
+    <div class="mainWrapper">
+        <ul>
+            <!-- 게시판 제목 -->
+            <li class="mainTitle">토론의 장</li>
+            <!-- 게시판 목록  -->
+            <li>
+                <ul class="ulTable">
+                    <li>
+                        <ul>
+                            <li>No</li>
+                            <li>제목</li>
+                            <li>작성일</li>
+                            <li>작성자</li>
+                            <li>조회수</li>
+                        </ul>
+                    </li>
+                    <!-- 게시물이 출력될 영역 -->
+                    <li>
+                        <ul>
+                            <li>1</li><!-- 번호 -->
+                            <li class="left">제목1</li><!-- 제목 -->
+                            <li>2020.11.28</li><!-- 날짜 -->
+                            <li>ㅇㅇ</li><!-- 이름 -->
+                            <li>1</li><!-- 조회수 -->
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>2</li>
+                            <li class="left">제목2</li>
+                            <li>2020.11.28</li>
+                            <li>ㅇㅇ</li>
+                            <li>2</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>3</li>
+                            <li class="left">제목3</li>
+                            <li>2020.11.28</li>
+                            <li>ㅇㅇ</li>
+                            <li>3</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>4</li>
+                            <li class="left">제목4</li>
+                            <li>2020.11.28</li>
+                            <li>ㅇㅇ</li>
+                            <li>4</li>
+                        </ul>
+                    </li>                                        
+                </ul>
+            </li>
+            <!-- 페이지넘기기 -->
+            <li>
+                <div class="divPaging">
+                    <div>◀</div>
+                       <div><b>1</b></div>
+                    <div>▶</div>
+                </div>
+            </li>
+            <!-- 검색 -->
+            <li class='liSearchOption'>
+                <div>
+                    <select class='selSearchOption' >
+                        <option value='TitleCont'>제목+내용</option>
+                        <option value='Title'>제목</option>
+                        <option value='Content'>내용</option>
+                        <option value='Writer'>글쓴이</option>
+                    </select>
+                    <input class='txtKeyWord'/>
+                    <!-- location.href에 검색 지정-->
+                    <button type="button" class="search" onclick="location.href=''" draggable="true">
+                        검색
+                    </button>
+                    <button type="button" class="write" onclick="location.href='write.html'" draggable="true">
+                        글쓰기
+                    </button>
+                </div>
+                </li>
         </ul>
     </div>
 </body>

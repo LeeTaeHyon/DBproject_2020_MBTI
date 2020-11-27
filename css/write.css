@@ -1,0 +1,129 @@
+body{
+	background:#e0e5ff;
+}
+.mainWrapper{
+	width: 80vw;
+	height: 90vh;
+	display:flex;
+	flex-direction: column;
+	padding-top:5vh;
+	margin-left:13vw;
+	border-radius: 30px;
+	background: linear-gradient(145deg, #ffffff, #e6e6e6);
+	box-shadow:  20px 20px 60px #d9d9d9, 
+			 -20px -20px 60px #ffffff;
+}
+.mainWrapper .mainT{
+	font-family:"Noto Sans KR";
+	font-weight: 900;
+	font-size:6vw;
+	margin-left: 15vw;
+	background: linear-gradient(145deg, #cad6ff, #aab4e6);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+input::placeholder {
+	font-weight: 500;
+	color: grey;
+	font-style: italic;
+}
+textarea::placeholder {
+	font-weight: 500;
+	color: grey;
+	font-style: italic;
+}
+textarea{
+	font-family: 'Noto Sans KR';
+	font-weight: 500;
+	font-size:1vw;
+	width: 50vw;
+	height: 40vh;
+	padding-left: 10px;
+	padding-top: 5px;
+	resize: none;
+	border-radius: 11px;
+background: #e0e5ff;
+box-shadow: inset 5px 5px 10px #babed4, 
+            inset -5px -5px 10px #ffffff;
+	border: 0px solid #999;
+	-webkit-appearance: none;  /* 브라우저별 기본 스타일링 제거 */
+	-moz-appearance: none;
+	appearance: none;
+}
+textarea:focus{
+	outline: none;
+}
+input{
+	border: 0px solid #999;
+	position: relative;
+	font-family: 'Noto Sans KR';
+	font-weight: 500;
+	font-size:1vh;
+	width: 10vw;
+	height: 3vh;
+	background:#e0e5ff;
+	border-radius: 11px;
+	background: #e0e5ff;
+	box-shadow:  20px 20px 60px #bec3d9, 
+			 -20px -20px 60px #ffffff;
+	padding-left: 10px;
+	-webkit-appearance: none;  /* 브라우저별 기본 스타일링 제거 */
+	-moz-appearance: none;
+	appearance: none;
+}
+input[class="title"]{
+	width: 50vw;
+}
+input:focus{
+	outline: none;
+}
+.Set_name{
+	padding-left: 15vw;
+	padding-top: 5vh;
+}
+.Set_pw{
+	padding-left: 15vw;
+	padding-top: 2vh;
+}
+.Set_title{
+	padding-left: 15vw;
+	padding-top: 2vh;
+}
+.Set_contents{
+	padding-left: 15vw;
+	padding-top: 2vh;
+}
+.Set_save{
+	align-self: center;
+	padding-top: 1vh;
+}
+.save{
+    width:5vw;
+    height: 4vh;
+    border: none;
+	color:white;
+	text-align: center;
+    font-size: 2vh;
+    font-weight: 900;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 20px;
+    animation: 0.5s;
+    border-radius: 11px;
+	background: linear-gradient(145deg, #cacee6, #f0f5ff);
+	box-shadow:  5px 5px 10px #babed4, 
+             -5px -5px 10px #ffffff;
+}
+.save:hover{
+    background: linear-gradient(145deg, #f0f5ff, #cacee6);
+	box-shadow:  5px 5px 10px #a4a7ba, 
+             -5px -5px 10px #ffffff;
+}
+.save:active{
+    background: #e0e5ff;
+	box-shadow: inset 5px 5px 10px #d3d7f0, 
+            inset -5px -5px 10px #edf3ff;
+}
+.save:focus{
+    outline: none;
+}
