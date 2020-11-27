@@ -49,7 +49,7 @@
         </ul>
     </div>
     <div class="mainContent">
-        <h1>
+        <h1 draggable="true">
             MBTI 검사지
         </h1>
         <!-- ques 클래스에 검사 질문 출력 -->
@@ -59,13 +59,39 @@
             </p>
             <label class="box-radio-input">
             <input type="radio" name="rb1" value="옵션1" checked="checked">
-            <span>아이디어의 교환 및 다른 사람들과 공유.</span></label>
+            <span draggable="true">아이디어의 교환 및 다른 사람들과 공유.</span></label>
             </br>
             <label class="box-radio-input">
             <input type="radio" name="rb1" value="옵션2">
-            <span>나 자신의 조용한 생각.</span></label>
+            <span draggable="true">나 자신의 조용한 생각.</span></label>
         </div>
-        <button type="button" class="submit" onclick="location.href='nav_3.html'">
+
+        <div class="ques">
+            <p>
+                2. 회의를 진행할 때 나는 보통
+            </p>
+            <label class="box-radio-input">
+            <input type="radio" name="rb2" value="옵션1" checked="checked">
+            <span draggable="true">준비된 의제를 따르는 것에 대해 훈련되었습니다.</span></label>
+            </br>
+            <label class="box-radio-input">
+            <input type="radio" name="rb2" value="옵션2">
+            <span draggable="true">어떤 것이 든 유연하고 개방적입니다.</span></label>
+        </div>
+
+        <div class="ques">
+            <p>
+                3. 부하 직원의 개발을 처리 할 때 나는
+            </p>
+            <label class="box-radio-input">
+            <input type="radio" name="rb3" value="옵션1" checked="checked">
+            <span draggable="true">자신의 행동과 관련된 문제에 대해 논의합니다.</span></label>
+            </br>
+            <label class="box-radio-input">
+            <input type="radio" name="rb3" value="옵션2">
+            <span draggable="true">그 또는 그녀의 불쾌한 말을 싫어합니다.</span></label>
+        </div>
+        <button type="button" class="submit" onclick="location.href='nav_3.html'" draggable="true">
             제출하기
         </button>
     </div>
