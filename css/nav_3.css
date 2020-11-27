@@ -13,8 +13,9 @@
 }
 .mainContent h2{
     font-weight: 500;
-    font-size: 2vw;
+    font-size: 1vw;
     line-height: 30vh;
+    color:white;
 }
 .mainContent .res{
     font-weight: 900;
