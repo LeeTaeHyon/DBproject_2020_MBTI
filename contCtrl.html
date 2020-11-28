@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" type="text/css" href="css/examCont.css">
+    <link rel="stylesheet" type="text/css" href="css/contCtrl.css">
     <!-- title을 글 제목 따와서 수정 -->
-    <title>셀브스트 - 글제목</title>
+    <title>셀브스트 - 비밀번호확인</title>
 </head>
 <body>
     <div class="nav">
@@ -50,33 +50,17 @@
         </ul>
     </div>
     <div class="mainWrapper">
-        <div class="Set_back">
-            <button type="button" class="back" onclick="location.href='nav_5.html'" draggable="true">
-                뒤로가기
-            </button>
-        </div>
-        <div class="nest_main">
-            <!-- 제목부분 -->
-            <div class="mainT">
-                제목1
-            </div>
-            <div class="mainW">
-                    ㅇㅇ
-            </div>
-        </div>
-        <div>
-            <div class="Set_contents">
-                글내용입니다
-            </div>
+        <div class="Set_pw">
+            <input type="password" class="pw" placeholder="비번확인">
         </div>
         <div class="Set_btn">
-            <!-- location.href 설정 필요 -->
-            <button type="button" class="mod" onclick="location.href=''" draggable="true">
-                수정
+            <!-- location.href 설정 필요 - 다시보던 글로 돌아감 -->
+            <button type="button" class="cancel" onclick="location.href='examCont.html'" draggable="true">
+                취소
             </button>
             <!-- location.href 설정 필요 -->
-            <button type="button" class="del" onclick="location.href='contCtrl.html'" draggable="true">
-                삭제
+            <button type="button" class="check" onclick="location.href='nav_5.html'" draggable="true">
+                확인
             </button>
         </div>
     </div>

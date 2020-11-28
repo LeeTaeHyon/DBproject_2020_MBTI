@@ -1,0 +1,102 @@
+body{
+	background:#e0e5ff;
+}
+.mainWrapper{
+	width: 80vw;
+	height: 90vh;
+	display:flex;
+	flex-direction: column;
+	padding-top:5vh;
+	margin-left:13vw;
+	border-radius: 30px;
+	background: linear-gradient(145deg, #ffffff, #e6e6e6);
+	box-shadow:  20px 20px 60px #d9d9d9, 
+			 -20px -20px 60px #ffffff;
+}
+input{
+	border: 0px solid #999;
+	position: relative;
+	font-family: 'Noto Sans KR';
+	font-weight: 500;
+	font-size:5vh;
+	width: 20vw;
+	height: 10vh;
+	background:#e0e5ff;
+	border-radius: 11px;
+	background: #e0e5ff;
+	box-shadow:  20px 20px 60px #bec3d9, 
+			 -20px -20px 60px #ffffff;
+	padding-left: 10px;
+	-webkit-appearance: none;  /* 브라우저별 기본 스타일링 제거 */
+	-moz-appearance: none;
+	appearance: none;
+}
+input:focus{
+    outline: none;
+}
+.Set_pw{
+	padding-left: 30vw;
+	padding-top: 30vh;
+}
+.Set_btn{
+    padding-left: 35vw;
+    padding-top: 5vh;
+}
+.cancel{
+    width:5vw;
+    height: 4vh;
+    border: none;
+	color:white;
+	text-align: center;
+    font-size: 2vh;
+    font-weight: 900;
+    margin: 4px;
+    cursor: pointer;
+    animation: 0.5s;
+    border-radius: 11px;
+	background: linear-gradient(145deg, #cacee6, #f0f5ff);
+	box-shadow:  5px 5px 10px #babed4, 
+             -5px -5px 10px #ffffff;
+}
+.cancel:hover{
+    background: linear-gradient(145deg, #f0f5ff, #cacee6);
+	box-shadow:  5px 5px 10px #a4a7ba, 
+             -5px -5px 10px #ffffff;
+}
+.cancel:active{
+    background: #e0e5ff;
+	box-shadow: inset 5px 5px 10px #d3d7f0, 
+            inset -5px -5px 10px #edf3ff;
+}
+.cancel:focus{
+    outline: none;
+}
+.check{
+    width:5vw;
+    height: 4vh;
+    border: none;
+	color:white;
+	text-align: center;
+    font-size: 2vh;
+    font-weight: 900;
+    margin: 4px;
+    cursor: pointer;
+    animation: 0.5s;
+    border-radius: 11px;
+	background: linear-gradient(145deg, #e67c7c, #ff9494);
+    box-shadow:  5px 5px 10px #663737, 
+             -5px -5px 10px #ffdddd;
+}
+.check:hover{
+    background: linear-gradient(145deg, #ff9494, #e67c7c);
+    box-shadow:  5px 5px 10px #663737, 
+             -5px -5px 10px #ffdddd;
+}
+.check:active{
+    background: #ff8a8a;
+    box-shadow: inset 5px 5px 10px #663737, 
+            inset -5px -5px 10px #ffdddd;
+}
+.check:focus{
+    outline: none;
+}
