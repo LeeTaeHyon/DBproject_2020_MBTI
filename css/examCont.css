@@ -6,84 +6,40 @@ body{
 	height: 90vh;
 	display:flex;
 	flex-direction: column;
-	padding-top:1vh;
+	padding-top:5vh;
 	margin-left:13vw;
 	border-radius: 30px;
 	background: linear-gradient(145deg, #ffffff, #e6e6e6);
 	box-shadow:  20px 20px 60px #d9d9d9, 
 			 -20px -20px 60px #ffffff;
 }
+.nest_main{
+    display: flex;
+}
 .mainWrapper .mainT{
 	font-family:"Noto Sans KR";
 	font-weight: 900;
-	font-size:5vw;
+	font-size:6vw;
 	margin-left: 15vw;
 	background: linear-gradient(145deg, #cad6ff, #aab4e6);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-input::placeholder {
+.mainWrapper .mainW{
+	font-family:"Noto Sans KR";
 	font-weight: 500;
-	color: grey;
-	font-style: italic;
+	font-size:2vw;
+    margin-left: 2vw;
+    margin-top:9vh;
+    color:gray;
+    font-style: italic;
 }
-textarea::placeholder {
-	font-weight: 500;
-	color: grey;
-	font-style: italic;
-}
-textarea{
-	font-family: 'Noto Sans KR';
-	font-weight: 500;
-	font-size:1vw;
-	width: 50vw;
-	height: 40vh;
-	padding-left: 10px;
-	padding-top: 5px;
-	resize: none;
-	border-radius: 11px;
-	background: #e0e5ff;
-	box-shadow: inset 5px 5px 10px #babed4, 
-            inset -5px -5px 10px #ffffff;
-	border: 0px solid #999;
-	-webkit-appearance: none;  /* 브라우저별 기본 스타일링 제거 */
-	-moz-appearance: none;
-	appearance: none;
-}
-textarea:focus{
-	outline: none;
-}
-input{
-	border: 0px solid #999;
-	position: relative;
-	font-family: 'Noto Sans KR';
-	font-weight: 500;
-	font-size:1vh;
-	width: 10vw;
-	height: 3vh;
-	background:#e0e5ff;
-	border-radius: 11px;
-	background: #e0e5ff;
-	box-shadow:  20px 20px 60px #bec3d9, 
-			 -20px -20px 60px #ffffff;
-	padding-left: 10px;
-	-webkit-appearance: none;  /* 브라우저별 기본 스타일링 제거 */
-	-moz-appearance: none;
-	appearance: none;
-}
-input[class="title"]{
-	width: 50vw;
-}
-input:focus{
-	outline: none;
+.Set_back{
+    padding-left: 5vw;
 }
 .Set_name{
 	padding-left: 15vw;
 	padding-top: 5vh;
-}
-.Set_pw{
-	padding-left: 15vw;
-	padding-top: 2vh;
 }
 .Set_title{
 	padding-left: 15vw;
@@ -91,24 +47,31 @@ input:focus{
 }
 .Set_contents{
 	padding-left: 15vw;
-	padding-top: 2vh;
+    text-align: left;
+    align-self: flex-start;
+    font-size:5vh;
+    display: inline-block;
+    white-space: pre-line;
+    line-height: 7vh;
+    width: 60vw;
+    overflow: hidden;
+    height: 40vh;
+    text-overflow: ellipsis;
+    word-break: break-all;
 }
-.Set_save{
-	align-self: center;
-	padding-top: 1vh;
-}
-.Set_back{
-	padding-top: 2vh;
-    padding-left: 5vw;
+.Set_btn{
+    padding-left: 35vw;
+    padding-top: 1vh;
 }
 .back{
     width:5vw;
-	height: 4vh;
+    height: 4vh;
     border: none;
 	color: #aab4e6;
     text-align: center;
     font-size: 2vh;
     font-weight: 900;
+    margin: 4px;
     cursor: pointer;
     animation: 0.5s;
     background-color: transparent;
@@ -121,7 +84,7 @@ input:focus{
 .back:focus{
     outline: none;
 }
-.save{
+.mod{
     width:5vw;
     height: 4vh;
     border: none;
@@ -137,16 +100,45 @@ input:focus{
 	box-shadow:  5px 5px 10px #babed4, 
              -5px -5px 10px #ffffff;
 }
-.save:hover{
+.mod:hover{
     background: linear-gradient(145deg, #f0f5ff, #cacee6);
 	box-shadow:  5px 5px 10px #a4a7ba, 
              -5px -5px 10px #ffffff;
 }
-.save:active{
+.mod:active{
     background: #e0e5ff;
 	box-shadow: inset 5px 5px 10px #d3d7f0, 
             inset -5px -5px 10px #edf3ff;
 }
-.save:focus{
+.mod:focus{
+    outline: none;
+}
+.del{
+    width:5vw;
+    height: 4vh;
+    border: none;
+	color:white;
+	text-align: center;
+    font-size: 2vh;
+    font-weight: 900;
+    margin: 4px;
+    cursor: pointer;
+    animation: 0.5s;
+    border-radius: 11px;
+	background: linear-gradient(145deg, #e67c7c, #ff9494);
+    box-shadow:  5px 5px 10px #663737, 
+             -5px -5px 10px #ffdddd;
+}
+.del:hover{
+    background: linear-gradient(145deg, #ff9494, #e67c7c);
+    box-shadow:  5px 5px 10px #663737, 
+             -5px -5px 10px #ffdddd;
+}
+.del:active{
+    background: #ff8a8a;
+    box-shadow: inset 5px 5px 10px #663737, 
+            inset -5px -5px 10px #ffdddd;
+}
+.del:focus{
     outline: none;
 }

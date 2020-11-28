@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" type="text/css" href="css/write.css">
-    <title>셀브스트 - 글쓰기</title>
+    <link rel="stylesheet" type="text/css" href="css/examCont.css">
+    <!-- title을 글 제목 따와서 수정 -->
+    <title>셀브스트 - 글제목</title>
 </head>
 <body>
     <div class="nav">
@@ -54,27 +55,28 @@
                 뒤로가기
             </button>
         </div>
-        <div class="mainT">
-            글쓰기
+        <div class="nest_main">
+            <!-- 제목부분 -->
+            <div class="mainT">
+                제목1
+            </div>
+            <div class="mainW">
+                    ㅇㅇ
+            </div>
         </div>
         <div>
-            <div class="Set_name">
-                <input type="text" class="name" placeholder="이름">
-            </div>
-            <div class="Set_pw">
-                <input type="password" class="pw" placeholder="비번">
-            </div>
-            <div class="Set_title">
-                <input type="text" class="title" placeholder="제목">
-            </div>
             <div class="Set_contents">
-                <textarea cols="10"class="contents" placeholder="글쓰기"></textarea>
+                글내용입니다
             </div>
         </div>
-        <div class="Set_save">
+        <div class="Set_btn">
             <!-- location.href 설정 필요 -->
-            <button type="button" class="save" onclick="location.href='nav_5.html'" draggable="true">
-                작성완료
+            <button type="button" class="mod" onclick="location.href=''" draggable="true">
+                수정
+            </button>
+            <!-- location.href 설정 필요 -->
+            <button type="button" class="del" onclick="location.href=''" draggable="true">
+                삭제
             </button>
         </div>
     </div>
